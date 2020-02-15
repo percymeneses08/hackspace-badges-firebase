@@ -1,0 +1,50 @@
+@mixin button($width, $height, $background-color) {
+  width: $width;
+  height: $height;
+  background-color: $background-color;
+  
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+  // padding-bottom: $height / 12.6667;
+  font-size: $height / 1.8095;
+  border-radius: $height / 6.3333;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  // color: $color-black-light;
+  color: $color-background-light-gray;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: $transition-time-button;
+
+  &:active {
+    transform: $transform-scale-click;
+  }
+}
+@mixin div-input-styles($width, $height) {
+  display: flex;
+  border: 0;
+  border-radius: $border-radius-button;
+  box-shadow: $box-shadow;
+  height: $height;
+  width: $width;
+  outline: none;
+  padding: 0 14px;
+  background-color: white;
+  font-size: $size-input;
+  color: $color-container;
+}
+
+@mixin respond-to-max($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+@mixin respond-to-min($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}

@@ -1,0 +1,61 @@
+.badgesList {
+  & .header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    background-color: $color-background-light-gray;
+    
+    & .header-width {
+      display: flex;
+      width: 1204px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      
+      & .hackspaceLogo {
+        height: 70px;
+      }
+      & .write {
+        @include div-input-styles(310px, 44px);
+        width: 100%;
+        
+        & .searchImg {
+          width: 19px;
+          height: 100%;
+          margin: 0 14px 0 0;
+        }
+        & input {
+          width: 100%;
+          border: 0;
+          outline: none;
+          font-size: 18px;
+          color: $color-text-input-light-gray;
+        }
+      }
+      & .button {
+        @include button(147px, 40px, $color-orange-hackspace);
+        margin: 0;
+      }
+    }
+  }
+  & .unordered-list {
+    font-size: 26.556px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 13.5em);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 26px;
+    width: 100vw;
+
+    & .list-item {
+      width: 100%;
+
+      & a {
+        text-decoration: none;
+      }
+    }
+  }
+}

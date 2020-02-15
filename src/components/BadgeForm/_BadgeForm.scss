@@ -1,0 +1,45 @@
+.form {
+  text-align: left;
+  background-color: white;
+  // box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 0.1em 0.375em rgba(0, 0, 0, 0.18);
+  width: 8.75em;
+  padding: 0.825em 1.2em 0;
+  border-radius: 0.2em;
+  margin-bottom: 0.5em;
+
+  position: absolute;
+
+  // margin-top: 134px;
+  // right: 2.35em;
+
+  &-container {
+    color: $color-text-light-black;
+    margin-bottom: 0.875em;
+
+    & h3 {
+      font-size: 0.65em;
+      margin: 0 0 0.3077em;
+    }
+    & .input {
+      & input {
+        color: $color-text-light-black;
+        border: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, .38);
+        outline: none;
+        font-family: inherit;
+        font-size: 0.5em;
+        width: 100%;
+      }
+    }
+    & .button {
+      @include button(77px, 35px, $color-orange-hackspace);
+      // @include button(1.9245em, 0.875em, $color-orange-hackspace);
+      width: 3.981em;
+      height: 1.81em;
+      margin-top: 1.034em;
+      font-size: 0.483em;
+      border-radius: 0.2em;
+    }
+  }
+}

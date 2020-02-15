@@ -1,0 +1,27 @@
+.deleteBadgeModal {
+  width: 100%;
+  padding: 20px;
+  
+  & h1 {
+    margin-top: 0;
+  }
+  & p {
+    height: 30%;
+  }
+  & .buttons {
+    display: flex;
+    justify-content: flex-end;
+    
+    & .cancel {
+      // @include button(100px, 30px, $color-background-light-gray);
+      @include button(100px, 30px, rgba(0, 0, 0, .1));
+      margin-top: 0;
+      margin-right: 5px;
+      color: $color-text-light-black;
+    }
+    & .delete {
+      @include button(100px, 30px, $color-button-warning);
+      margin: 0;
+    }
+  }
+}

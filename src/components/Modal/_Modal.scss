@@ -1,0 +1,48 @@
+.Modal {
+  background-color: $color-background-overlay;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .container {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-end;
+
+    & .button-container {
+      height: 25px;
+      text-align: end;
+
+      & .close {
+        width: 25px;
+        background: none;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        padding: 0;
+        text-align: left;
+        font-weight: bolder;
+      }
+    }
+    & .padding-modal {
+      height: 100%;
+      padding: 0 25px 25px 25px;
+
+      & .content {
+        height: 100%;
+        background-color: white;
+        border-radius: $border-radius;
+        display: flex;
+      }
+    }
+  }
+}

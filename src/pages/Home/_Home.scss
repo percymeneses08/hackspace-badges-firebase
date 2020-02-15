@@ -1,0 +1,32 @@
+.padding {
+  padding: $height-navbar 0 $height-navbar/2;
+  background-color: $color-background-light-gray;
+  
+  // height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+
+  & .home {
+    margin-top: 134px;
+    
+    & h1 {
+      color: $color-black-light;
+      font-size: 48px;
+      font-weight: 500;
+      margin: 10px 0;
+      line-height: 1.1;
+    }
+    & h3 {
+      color: $color-gray-light;
+      font-size: 24px;
+      font-weight: 300;
+      margin: 10px 0;
+      line-height: 1.1;
+    }
+    & .button {
+      @include button(120px, 38px, $color-orange-hackspace);
+    }
+  }
+}

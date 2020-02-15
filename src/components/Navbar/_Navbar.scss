@@ -1,0 +1,19 @@
+body {
+  margin: 0 !important;
+  background-color: $color-background-light-gray;
+}
+.navbar {
+  width: 100%; 
+  height: $height-navbar;
+  position: fixed;
+  display: grid;
+  align-items: end;
+  background-color: $color-background-light-gray;
+  z-index: 1;
+
+  &-link {
+    & img {
+      height: 87px;
+    }
+  }
+}

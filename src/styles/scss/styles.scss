@@ -1,0 +1,18 @@
+@import './lib/variables';
+@import './lib/mixins';
+
+@import '../../pages/Home/Home';
+@import '../../pages/BadgesCreate/BadgesCreate';
+@import '../../pages/BadgeDetails/BadgeDetails';
+@import '../../pages/BadgeEdit/BadgeEdit';
+
+@import '../../components/Navbar/Navbar';
+@import '../../components/Loader/Loader';
+@import '../../components/BadgeForm/BadgeForm';
+@import '../../components/Badge/Badge';
+@import '../../components/BadgesList/BadgesList';
+@import '../../components/DeleteBadgeModal/DeleteBadgeModal';
+@import '../../components/Modal/Modal';
+@import '../../components/pageError/pageError';
+
+@import './layout/layout';

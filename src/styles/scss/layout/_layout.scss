@@ -1,0 +1,132 @@
+@include respond-to-max($width-hd - 1) {
+  .badgesCreate,
+  .badgesEdit {
+    font-size: 31px;
+  }
+  .badgesList {
+    & .header {
+      width: 100vw;
+      & .header-width {
+        width: 870px;
+      }
+    }
+    & .padding {
+      & .unordered-list {
+        font-size: 19.556px;
+      }
+    }
+  }
+}
+@include respond-to-max($width-laptop - 1) {
+  .badgesCreate, 
+  .badgesEdit {
+    font-size: 25px;
+  }
+  .badgesList {
+    & .header {
+      & .header-width {
+        width: 716px;
+        padding-bottom: 5px;
+      }
+    }
+    & .padding {
+      padding: 99px 0 37.5px;
+
+      & .unordered-list {
+        font-size: 16.556px;
+      }
+    }
+  }
+}
+@include respond-to-max($width-tablet - 1) {
+  .badgesList {
+    display: flex;
+    justify-content: center;
+
+    & .header {
+      & .header-width {
+        display: grid;
+        grid-template-areas: "image buttonArea"
+                              "text text";
+        width: 79vw;
+
+        & img {
+          grid-area: image;
+        }
+        & .text-write {
+          grid-area: text;
+          margin-top: 12px;
+          display: flex;
+          justify-content: center;
+        }
+        & .button {
+          grid-area: buttonArea;
+          justify-self: end;
+        }
+      }
+    }
+    & .padding {
+      padding: 159px 0 37.5px;
+      & .unordered-list {
+        font-size: 25.556px;
+      }
+      & .badgeDetails {
+        & .badge {
+          font-size: 27px !important;
+        }
+      }
+    }
+  }
+  .badgesCreate,
+  .badgesEdit {
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+
+    & .badge {
+      display: none;
+    }
+  }
+  .badgeDetails {
+    & .badgeContainerFontSize {
+      & .badge {
+        font-size: 26px !important;
+      }
+    }
+  }
+  // .badge {
+  //   font-size: 28px;
+  // }
+}
+
+@include respond-to-min($width-tablet) {
+  .form {
+    right: 2.35em;
+  }
+}
+
+@include  respond-to-max($width-mobile-m - 1) {
+  .badgesCreate,
+  .badgesEdit {
+    font-size: 25px;
+  }
+  .badgesList {
+    & .header {
+      & .header-width {
+        width: 90vw;
+      }
+    }
+    & .padding {
+      & .unordered-list {
+        font-size: 21.556px;
+      }
+    }
+  }
+  .badgeDetails {
+    & .badgeContainerFontSize {
+      & .badge {
+        font-size: 20px !important;
+      }
+    }
+  }
+}
