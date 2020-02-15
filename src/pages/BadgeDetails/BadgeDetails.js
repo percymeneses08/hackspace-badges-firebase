@@ -24,7 +24,7 @@ function BadgeDetails(props) {
         <div className="edit">
           <Link 
             className="button"
-            to={`/badges/${badge.id}/edit`}>
+            to={`/hackspace-badges-firebase/badges/${badge.id}/edit`}>
             Edit
           </Link>
         </div>

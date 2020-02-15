@@ -8,7 +8,7 @@ class Navbar extends React.Component {
   render () {
     return (
       <div className="navbar">
-        <Link className="navbar-link" to="/">
+        <Link className="navbar-link" to="/hackspace-badges-firebase/">
           <img src={HackspaceMini} alt="Hackspace-mini.png"/>
         </Link>
       </div>

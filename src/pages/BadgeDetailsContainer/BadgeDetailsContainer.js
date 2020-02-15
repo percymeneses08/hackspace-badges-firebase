@@ -24,9 +24,8 @@ class BadgeDetailsContainer extends React.Component {
 
     try {
       // Mediante estos props recibo otros datos, la historia por ejemplo, a diferencia de lo que se recibe en el del render()
-      // const theCollection = _ => db.collection("badges").doc(this.props.match.params.badgeId).get()
+
       const theCollection = await db.collection("badges").doc(this.props.match.params.badgeId).get()
-      // const collection = await save()
       this.setState({ loading: false, data: theCollection.data() })
     } catch (error) {
       this.setState({ loading: false, error: error })
@@ -48,7 +47,7 @@ class BadgeDetailsContainer extends React.Component {
       // Remuevo el badge según el Id
       await db.collection("badges").doc(this.props.match.params.badgeId).delete()
       this.setState({ loading: false })
-      this.props.history.push('/badges')
+      this.props.history.push('/hackspace-badges-firebase/badges')
     } catch (error) {
       this.setState({ loading: false, error: error })
     }

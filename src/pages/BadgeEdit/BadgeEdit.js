@@ -30,7 +30,6 @@ class BadgeEdit extends React.Component {
     try {
       // Aquí no puedo recibir los props de BadgeDetails porque no estoy en el render()
       const theCollection = await db.collection("badges").doc(this.props.match.params.badgeId).get()
-
       
       this.setState({ loading: false, form: theCollection.data() })
     } catch(error) {
@@ -59,7 +58,7 @@ class BadgeEdit extends React.Component {
       )
       this.setState({ loading: false })
       // Y nos redirigimos a la página donde están los badges
-      this.props.history.push('/badges')
+      this.props.history.push('/hackspace-badges-firebase/badges')
     } catch (error) {
       this.setState({ loading: false, error: error })
     }

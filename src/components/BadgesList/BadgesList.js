@@ -45,7 +45,7 @@ function BadgesList(props) {
               />
             </div>
           </div>
-          <Link className="button" to="badges/create/badgesCreate">New Badge</Link>
+          <Link className="button" to="/hackspace-badges-firebase/badges/create/badgesCreate">New Badge</Link>
         </div>
       </div>
       <div className="padding">
@@ -53,7 +53,7 @@ function BadgesList(props) {
           {filteredBadges.map(badge => {
             return(
               <div className="list-item" key={badge.id}>
-                <Link to={`/badges/${badge.id}`}>
+                <Link to={`/hackspace-badges-firebase/badges/${badge.id}`}>
                   <Badge
                     // BadgeWidth="378px"
                     // BadgeHeight="219.36px"

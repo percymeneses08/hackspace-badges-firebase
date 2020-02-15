@@ -55,7 +55,7 @@ class BadgesCreate extends React.Component {
       this.setState({ loading: false })
 
       // Cuando se guarden los datos me va a dirigir más esta ruta al final
-      this.props.history.push("/badges")
+      this.props.history.push("/hackspace-badges-firebase/badges")
     } catch (error) {
       this.setState({ loading: false, error: error })
     }

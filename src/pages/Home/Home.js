@@ -8,7 +8,7 @@ class Home extends React.Component {
         <div className="home">
           <h1>Asociación Hack Space Perú</h1>
           <h3>Generamos Comunidad, Difundimos Tecnología.</h3>
-          <Link className="button" to="/Badges">Alumnos</Link>
+          <Link className="button" to="/hackspace-badges-firebase/Badges">Alumnos</Link>
         </div>
       </div>
     )
