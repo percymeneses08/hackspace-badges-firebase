@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "271528e212ed13148c424a5b5741b68f",
+    "revision": "8f795b5cf21c070e87a199ff1443544b",
     "url": "/hackspace-badges-firebase/index.html"
   },
   {
-    "revision": "ae21d1ca2d81196e2202",
+    "revision": "2f354995ba99140259ff",
     "url": "/hackspace-badges-firebase/static/css/main.28c726c4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hackspace-badges-firebase/static/js/2.c3b7d354.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae21d1ca2d81196e2202",
-    "url": "/hackspace-badges-firebase/static/js/main.3b71871e.chunk.js"
+    "revision": "2f354995ba99140259ff",
+    "url": "/hackspace-badges-firebase/static/js/main.707f5963.chunk.js"
   },
   {
     "revision": "1b024de8093f6adc6f16",
