@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hackspace-badges-firebase/precache-manifest.8a18a45cacdc03a75f74afaaefaedd39.js"
+  "/hackspace-badges-firebase/precache-manifest.5e820bf9febe1dce1c4bc36d47c7e27a.js"
 );
 
 self.addEventListener('message', (event) => {

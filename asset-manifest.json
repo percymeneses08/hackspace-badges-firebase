@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/hackspace-badges-firebase/static/css/main.8ab6f918.chunk.css",
-    "main.js": "/hackspace-badges-firebase/static/js/main.0d61c53c.chunk.js",
-    "main.js.map": "/hackspace-badges-firebase/static/js/main.0d61c53c.chunk.js.map",
+    "main.css": "/hackspace-badges-firebase/static/css/main.28c726c4.chunk.css",
+    "main.js": "/hackspace-badges-firebase/static/js/main.3b71871e.chunk.js",
+    "main.js.map": "/hackspace-badges-firebase/static/js/main.3b71871e.chunk.js.map",
     "runtime-main.js": "/hackspace-badges-firebase/static/js/runtime-main.8a3d3031.js",
     "runtime-main.js.map": "/hackspace-badges-firebase/static/js/runtime-main.8a3d3031.js.map",
-    "static/js/2.85227447.chunk.js": "/hackspace-badges-firebase/static/js/2.85227447.chunk.js",
-    "static/js/2.85227447.chunk.js.map": "/hackspace-badges-firebase/static/js/2.85227447.chunk.js.map",
+    "static/js/2.c3b7d354.chunk.js": "/hackspace-badges-firebase/static/js/2.c3b7d354.chunk.js",
+    "static/js/2.c3b7d354.chunk.js.map": "/hackspace-badges-firebase/static/js/2.c3b7d354.chunk.js.map",
     "index.html": "/hackspace-badges-firebase/index.html",
-    "precache-manifest.8a18a45cacdc03a75f74afaaefaedd39.js": "/hackspace-badges-firebase/precache-manifest.8a18a45cacdc03a75f74afaaefaedd39.js",
+    "precache-manifest.5e820bf9febe1dce1c4bc36d47c7e27a.js": "/hackspace-badges-firebase/precache-manifest.5e820bf9febe1dce1c4bc36d47c7e27a.js",
     "service-worker.js": "/hackspace-badges-firebase/service-worker.js",
-    "static/css/main.8ab6f918.chunk.css.map": "/hackspace-badges-firebase/static/css/main.8ab6f918.chunk.css.map",
-    "static/js/2.85227447.chunk.js.LICENSE.txt": "/hackspace-badges-firebase/static/js/2.85227447.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/hackspace-badges-firebase/static/media/logo.5d5d9eef.svg"
+    "static/css/main.28c726c4.chunk.css.map": "/hackspace-badges-firebase/static/css/main.28c726c4.chunk.css.map",
+    "static/js/2.c3b7d354.chunk.js.LICENSE.txt": "/hackspace-badges-firebase/static/js/2.c3b7d354.chunk.js.LICENSE.txt",
+    "static/media/logo.png": "/hackspace-badges-firebase/static/media/logo.f63f7db1.png",
+    "static/media/search.svg": "/hackspace-badges-firebase/static/media/search.86044040.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8a3d3031.js",
-    "static/js/2.85227447.chunk.js",
-    "static/css/main.8ab6f918.chunk.css",
-    "static/js/main.0d61c53c.chunk.js"
+    "static/js/2.c3b7d354.chunk.js",
+    "static/css/main.28c726c4.chunk.css",
+    "static/js/main.3b71871e.chunk.js"
   ]
 }
